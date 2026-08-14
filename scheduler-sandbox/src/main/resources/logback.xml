@@ -1,0 +1,15 @@
+<configuration>
+    <!-- Регистрируем кастомный конвертер -->
+    <conversionRule conversionWord="customDate"
+                    converterClass="ru.skqwk.scheduler.sandbox.util.CustomDateConverter"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%customDate [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>
