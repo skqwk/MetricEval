@@ -11,4 +11,5 @@ public class DefaultProps implements Props {
     private final double globalAllowedRPM;
     private final Duration intervalMetricRecord;
     private final int msInOneTick;
+    private final int attempts;
 }

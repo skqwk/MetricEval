@@ -9,13 +9,12 @@
 
 ### Полезные команды
 
-Запуск Jupyter Notebook
-```
+Запуск Jupyter Notebook (вместо `"C:\work\academic\metric-eval"` указать директорию, куда был склонирован проект)
+```bash
 python -m notebook --notebook-dir "C:\work\academic\metric-eval"
 ```
 
-Запуск генератора набора данных
+Удалить все результаты запусков, кроме исходного набора данных
+```bash
+find . -type f -name "*.csv" ! -name "dataset.csv" -delete
 ```
-python exp_generator.py experiments/1/config.json
-```
-

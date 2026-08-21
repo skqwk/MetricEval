@@ -1,0 +1,1993 @@
+{
+    "meta": {
+        "description": "Таблица для адаптивного планировщика HAS",
+        "original_ranges": {
+            "load": {
+                "min": 0.4985,
+                "max": 1.1786
+            },
+            "cv": {
+                "min": 0.3954,
+                "max": 13.3837
+            }
+        }
+    },
+    "points": [
+        {
+            "theoretical_cv": 0.2,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.06747074105264915,
+                "load": 0.009738272693737272
+            },
+            "deviation": {
+                "LAS": 22.0,
+                "RR": 7.0,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.2,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.06724067628097387,
+                "load": 0.09305347504040043
+            },
+            "deviation": {
+                "LAS": 30.7,
+                "RR": 8.7,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.2,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.06751878255365315,
+                "load": 0.12626416821149417
+            },
+            "deviation": {
+                "LAS": 63.1,
+                "RR": 14.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.2,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.06693619583633505,
+                "load": 0.35149761961529036
+            },
+            "deviation": {
+                "LAS": 324.8,
+                "RR": 32.5,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.2,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.060128831113538686,
+                "load": 0.8019271223326985
+            },
+            "deviation": {
+                "LAS": 711.7,
+                "RR": 113.7,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.2,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.02901835610848632,
+                "load": 0.9037510205843021
+            },
+            "deviation": {
+                "LAS": 225.3,
+                "RR": 172.3,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.2,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.006174552287843424,
+                "load": 0.9592860769527066
+            },
+            "deviation": {
+                "LAS": 104.6,
+                "RR": 92.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.2,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 4.4931799008778895e-08,
+                "load": 1.000068870932447
+            },
+            "deviation": {
+                "LAS": 50.2,
+                "RR": 47.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.42,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.09640756798727668,
+                "load": 0.0024091067525260326
+            },
+            "deviation": {
+                "LAS": 42.2,
+                "RR": 14.5,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.42,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.09589343333081317,
+                "load": 0.1109361939094449
+            },
+            "deviation": {
+                "LAS": 64.2,
+                "RR": 22.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.42,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.09533356578291456,
+                "load": 0.13990344350825892
+            },
+            "deviation": {
+                "LAS": 123.9,
+                "RR": 32.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.42,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.09512968119283954,
+                "load": 0.40462930473522546
+            },
+            "deviation": {
+                "LAS": 479.6,
+                "RR": 74.9,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.42,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.08300925811600438,
+                "load": 0.7690798263854364
+            },
+            "deviation": {
+                "LAS": 647.4,
+                "RR": 153.5,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.42,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.05737114445249758,
+                "load": 0.8711017837693052
+            },
+            "deviation": {
+                "LAS": 212.6,
+                "RR": 161.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.42,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.04081712309674486,
+                "load": 0.9390937713828784
+            },
+            "deviation": {
+                "LAS": 95.7,
+                "RR": 85.7,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.42,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.02334862089679005,
+                "load": 0.9905704492286805
+            },
+            "deviation": {
+                "LAS": 46.5,
+                "RR": 43.9,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.66,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.13250502268987358,
+                "load": 0.0041435863292250946
+            },
+            "deviation": {
+                "LAS": 45.8,
+                "RR": 20.8,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.66,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.13383572281788175,
+                "load": 0.11296783868894754
+            },
+            "deviation": {
+                "LAS": 76.1,
+                "RR": 29.7,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.66,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.1348862283512102,
+                "load": 0.1575289839024881
+            },
+            "deviation": {
+                "LAS": 139.7,
+                "RR": 47.1,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.66,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.13237919020035127,
+                "load": 0.42723676548392236
+            },
+            "deviation": {
+                "LAS": 328.6,
+                "RR": 89.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.66,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.11361625609220627,
+                "load": 0.7367690088735595
+            },
+            "deviation": {
+                "LAS": 653.4,
+                "RR": 143.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.66,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.08779451921726658,
+                "load": 0.8351012626253066
+            },
+            "deviation": {
+                "LAS": 209.3,
+                "RR": 134.0,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.66,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.06779550429811278,
+                "load": 0.9100667761218239
+            },
+            "deviation": {
+                "LAS": 92.7,
+                "RR": 82.7,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.66,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.05819109560010766,
+                "load": 0.9730153319074962
+            },
+            "deviation": {
+                "LAS": 43.3,
+                "RR": 41.7,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.95,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.1818210501677162,
+                "load": 0.005185619147196731
+            },
+            "deviation": {
+                "LAS": 50.9,
+                "RR": 24.1,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.95,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.17669432785047437,
+                "load": 0.11860024974416734
+            },
+            "deviation": {
+                "LAS": 68.6,
+                "RR": 32.0,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.95,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.17871028271440403,
+                "load": 0.17663420553866507
+            },
+            "deviation": {
+                "LAS": 85.6,
+                "RR": 37.9,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.95,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.1748587031681528,
+                "load": 0.4516620128477671
+            },
+            "deviation": {
+                "LAS": 276.2,
+                "RR": 82.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.95,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.1531163381371137,
+                "load": 0.7278557507840092
+            },
+            "deviation": {
+                "LAS": 498.7,
+                "RR": 125.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.95,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.11916603069449143,
+                "load": 0.8113182689301107
+            },
+            "deviation": {
+                "LAS": 180.2,
+                "RR": 101.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.95,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.09803905811769725,
+                "load": 0.8807768916046558
+            },
+            "deviation": {
+                "LAS": 84.4,
+                "RR": 72.6,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 0.95,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.08332819462126655,
+                "load": 0.9441172243383961
+            },
+            "deviation": {
+                "LAS": 37.7,
+                "RR": 35.3,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.2,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.21737146965496146,
+                "load": 0.018858846475989184
+            },
+            "deviation": {
+                "LAS": 31.3,
+                "RR": 15.5,
+                "FCFS": 3.3
+            }
+        },
+        {
+            "theoretical_cv": 1.2,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.21681992307188663,
+                "load": 0.13597066440779756
+            },
+            "deviation": {
+                "LAS": 57.8,
+                "RR": 25.8,
+                "FCFS": 8.4
+            }
+        },
+        {
+            "theoretical_cv": 1.2,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.21379919336330602,
+                "load": 0.2127550610098594
+            },
+            "deviation": {
+                "LAS": 67.3,
+                "RR": 37.1,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.2,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.21129235663627963,
+                "load": 0.4973430021797237
+            },
+            "deviation": {
+                "LAS": 210.2,
+                "RR": 88.0,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.2,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.18991871226318746,
+                "load": 0.7125049017503263
+            },
+            "deviation": {
+                "LAS": 399.2,
+                "RR": 126.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.2,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.15019722780184394,
+                "load": 0.7890393302086409
+            },
+            "deviation": {
+                "LAS": 182.2,
+                "RR": 85.0,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.2,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.11966984456127426,
+                "load": 0.8571267934789227
+            },
+            "deviation": {
+                "LAS": 74.9,
+                "RR": 60.6,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.2,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.11089500350228872,
+                "load": 0.923019032992252
+            },
+            "deviation": {
+                "LAS": 33.0,
+                "RR": 30.1,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.4,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.2621442164094397,
+                "load": 0.014259498359404018
+            },
+            "deviation": {
+                "LAS": 39.3,
+                "RR": 20.3,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.4,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.24621477440354478,
+                "load": 0.14184911746176454
+            },
+            "deviation": {
+                "LAS": 32.4,
+                "RR": 16.4,
+                "FCFS": 9.7
+            }
+        },
+        {
+            "theoretical_cv": 1.4,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.24409670160060998,
+                "load": 0.20936194256589502
+            },
+            "deviation": {
+                "LAS": 63.7,
+                "RR": 32.7,
+                "FCFS": 0.7
+            }
+        },
+        {
+            "theoretical_cv": 1.4,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.24106480326832724,
+                "load": 0.49973551872815575
+            },
+            "deviation": {
+                "LAS": 156.3,
+                "RR": 71.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.4,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.21298907723831645,
+                "load": 0.7113427756793098
+            },
+            "deviation": {
+                "LAS": 266.7,
+                "RR": 102.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.4,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.16508010625083067,
+                "load": 0.7806772863095869
+            },
+            "deviation": {
+                "LAS": 146.3,
+                "RR": 76.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.4,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.13931387538857806,
+                "load": 0.8371207002957727
+            },
+            "deviation": {
+                "LAS": 65.8,
+                "RR": 48.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.4,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.12650608370198335,
+                "load": 0.9047760252091902
+            },
+            "deviation": {
+                "LAS": 29.6,
+                "RR": 26.5,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.31,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.24624238589710376,
+                "load": 0.023687003302436147
+            },
+            "deviation": {
+                "LAS": 39.7,
+                "RR": 18.9,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.31,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.2466046116099441,
+                "load": 0.13594360007128323
+            },
+            "deviation": {
+                "LAS": 57.5,
+                "RR": 26.2,
+                "FCFS": 3.3
+            }
+        },
+        {
+            "theoretical_cv": 1.31,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.23260448040911236,
+                "load": 0.2167814350504324
+            },
+            "deviation": {
+                "LAS": 84.1,
+                "RR": 36.0,
+                "FCFS": 1.1
+            }
+        },
+        {
+            "theoretical_cv": 1.31,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.22543413853354852,
+                "load": 0.46925527086023866
+            },
+            "deviation": {
+                "LAS": 150.5,
+                "RR": 74.7,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.31,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.20713013602646352,
+                "load": 0.7069149195558933
+            },
+            "deviation": {
+                "LAS": 290.4,
+                "RR": 99.3,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.31,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.16064308603832475,
+                "load": 0.7844204454045619
+            },
+            "deviation": {
+                "LAS": 169.0,
+                "RR": 84.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.31,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.13596187158404968,
+                "load": 0.8423260009208368
+            },
+            "deviation": {
+                "LAS": 72.5,
+                "RR": 52.9,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.31,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.11989061118532623,
+                "load": 0.9116332206231729
+            },
+            "deviation": {
+                "LAS": 29.3,
+                "RR": 26.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.6,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.28773204005038133,
+                "load": 0.047675993341767094
+            },
+            "deviation": {
+                "LAS": 24.3,
+                "RR": 12.9,
+                "FCFS": 21.3
+            }
+        },
+        {
+            "theoretical_cv": 1.6,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.2852905789420499,
+                "load": 0.1500265799632695
+            },
+            "deviation": {
+                "LAS": 34.5,
+                "RR": 17.7,
+                "FCFS": 6.8
+            }
+        },
+        {
+            "theoretical_cv": 1.6,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.2779926237177818,
+                "load": 0.20690896339758874
+            },
+            "deviation": {
+                "LAS": 56.2,
+                "RR": 31.2,
+                "FCFS": 0.8
+            }
+        },
+        {
+            "theoretical_cv": 1.6,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.27464188029672754,
+                "load": 0.5033377426897283
+            },
+            "deviation": {
+                "LAS": 123.7,
+                "RR": 64.8,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.6,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.2440443617169708,
+                "load": 0.6902513419176268
+            },
+            "deviation": {
+                "LAS": 238.5,
+                "RR": 95.6,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.6,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.1987195179145471,
+                "load": 0.7649930920974054
+            },
+            "deviation": {
+                "LAS": 176.3,
+                "RR": 78.9,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.6,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.1619733537048782,
+                "load": 0.8276111834737465
+            },
+            "deviation": {
+                "LAS": 70.6,
+                "RR": 47.3,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.6,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.15062685727752337,
+                "load": 0.8906866969625262
+            },
+            "deviation": {
+                "LAS": 24.4,
+                "RR": 21.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.0,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.3398500213166611,
+                "load": 0.03622894822453747
+            },
+            "deviation": {
+                "LAS": 9.0,
+                "RR": 6.7,
+                "FCFS": 26.3
+            }
+        },
+        {
+            "theoretical_cv": 2.0,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.3487080974851048,
+                "load": 0.16235492967765605
+            },
+            "deviation": {
+                "LAS": 20.2,
+                "RR": 12.2,
+                "FCFS": 4.1
+            }
+        },
+        {
+            "theoretical_cv": 2.0,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.3517378155959603,
+                "load": 0.2239416899718203
+            },
+            "deviation": {
+                "LAS": 23.5,
+                "RR": 12.8,
+                "FCFS": 11.2
+            }
+        },
+        {
+            "theoretical_cv": 2.0,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.31630497032245447,
+                "load": 0.46879485166315865
+            },
+            "deviation": {
+                "LAS": 76.3,
+                "RR": 42.0,
+                "FCFS": 6.0
+            }
+        },
+        {
+            "theoretical_cv": 2.0,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.2913304593654807,
+                "load": 0.6533446952052367
+            },
+            "deviation": {
+                "LAS": 131.4,
+                "RR": 70.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.0,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.23553894250854726,
+                "load": 0.7491722320136109
+            },
+            "deviation": {
+                "LAS": 140.2,
+                "RR": 64.9,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.0,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.20527831035698235,
+                "load": 0.8046640781306065
+            },
+            "deviation": {
+                "LAS": 54.4,
+                "RR": 34.6,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.0,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.1859285056768359,
+                "load": 0.8680526120499096
+            },
+            "deviation": {
+                "LAS": 20.2,
+                "RR": 15.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.79,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.32573397827833556,
+                "load": 0.03471069631652248
+            },
+            "deviation": {
+                "LAS": 21.1,
+                "RR": 11.8,
+                "FCFS": 13.5
+            }
+        },
+        {
+            "theoretical_cv": 1.79,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.305166113873795,
+                "load": 0.147826386533079
+            },
+            "deviation": {
+                "LAS": 25.3,
+                "RR": 10.8,
+                "FCFS": 11.3
+            }
+        },
+        {
+            "theoretical_cv": 1.79,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.30700458293790994,
+                "load": 0.21537640876937691
+            },
+            "deviation": {
+                "LAS": 29.4,
+                "RR": 15.5,
+                "FCFS": 3.8
+            }
+        },
+        {
+            "theoretical_cv": 1.79,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.3091541320150877,
+                "load": 0.48861141840388567
+            },
+            "deviation": {
+                "LAS": 77.5,
+                "RR": 45.3,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.79,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.2661443792396761,
+                "load": 0.6975733837808353
+            },
+            "deviation": {
+                "LAS": 266.9,
+                "RR": 101.1,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.79,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.21909134051208431,
+                "load": 0.7649517619343167
+            },
+            "deviation": {
+                "LAS": 136.6,
+                "RR": 67.1,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.79,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.1794707140518214,
+                "load": 0.8121211998056915
+            },
+            "deviation": {
+                "LAS": 60.8,
+                "RR": 37.7,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 1.79,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.16213749244579134,
+                "load": 0.8808018609797371
+            },
+            "deviation": {
+                "LAS": 25.1,
+                "RR": 20.9,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.5,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.4173686043652733,
+                "load": 0.022649903866663892
+            },
+            "deviation": {
+                "LAS": 12.7,
+                "RR": 5.4,
+                "FCFS": 41.3
+            }
+        },
+        {
+            "theoretical_cv": 2.5,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.41996670192120056,
+                "load": 0.1540605613016542
+            },
+            "deviation": {
+                "LAS": 15.3,
+                "RR": 1.3,
+                "FCFS": 23.9
+            }
+        },
+        {
+            "theoretical_cv": 2.5,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.4166464112630793,
+                "load": 0.21513477382399843
+            },
+            "deviation": {
+                "LAS": 25.3,
+                "RR": 12.6,
+                "FCFS": 3.3
+            }
+        },
+        {
+            "theoretical_cv": 2.5,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.4099368241180146,
+                "load": 0.5091668209322529
+            },
+            "deviation": {
+                "LAS": 54.3,
+                "RR": 38.0,
+                "FCFS": 4.3
+            }
+        },
+        {
+            "theoretical_cv": 2.5,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.36003545399825027,
+                "load": 0.6325919564252377
+            },
+            "deviation": {
+                "LAS": 105.8,
+                "RR": 59.2,
+                "FCFS": 0.6
+            }
+        },
+        {
+            "theoretical_cv": 2.5,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.2842130482424453,
+                "load": 0.7474228245880005
+            },
+            "deviation": {
+                "LAS": 102.6,
+                "RR": 47.3,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.5,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.23880843083795153,
+                "load": 0.7899444234616425
+            },
+            "deviation": {
+                "LAS": 49.4,
+                "RR": 30.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.5,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.22638512339584638,
+                "load": 0.8457558506576099
+            },
+            "deviation": {
+                "LAS": 16.1,
+                "RR": 10.8,
+                "FCFS": 1.0
+            }
+        },
+        {
+            "theoretical_cv": 2.47,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.4108463081896033,
+                "load": 0.013558477192524189
+            },
+            "deviation": {
+                "LAS": 12.1,
+                "RR": 3.1,
+                "FCFS": 22.6
+            }
+        },
+        {
+            "theoretical_cv": 2.47,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.41666615701090864,
+                "load": 0.15270759704667383
+            },
+            "deviation": {
+                "LAS": 17.2,
+                "RR": 11.0,
+                "FCFS": 18.6
+            }
+        },
+        {
+            "theoretical_cv": 2.47,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.4230610289594551,
+                "load": 0.21416058435390553
+            },
+            "deviation": {
+                "LAS": 24.9,
+                "RR": 17.7,
+                "FCFS": 34.0
+            }
+        },
+        {
+            "theoretical_cv": 2.47,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.4060806784496021,
+                "load": 0.4575480597962549
+            },
+            "deviation": {
+                "LAS": 43.0,
+                "RR": 27.5,
+                "FCFS": 3.5
+            }
+        },
+        {
+            "theoretical_cv": 2.47,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.37534425971469476,
+                "load": 0.6404808872304469
+            },
+            "deviation": {
+                "LAS": 108.2,
+                "RR": 79.0,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.47,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.3013188176921782,
+                "load": 0.7402135112917742
+            },
+            "deviation": {
+                "LAS": 130.3,
+                "RR": 53.9,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.47,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.2472492740242401,
+                "load": 0.7956089209277886
+            },
+            "deviation": {
+                "LAS": 54.9,
+                "RR": 32.0,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 2.47,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.21261262330677064,
+                "load": 0.8578652439312793
+            },
+            "deviation": {
+                "LAS": 22.2,
+                "RR": 15.4,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 3.0,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.4755777483018514,
+                "load": 0.052507405138782166
+            },
+            "deviation": {
+                "LAS": 5.7,
+                "RR": 4.0,
+                "FCFS": 50.7
+            }
+        },
+        {
+            "theoretical_cv": 3.0,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.49137826666518086,
+                "load": 0.1676723385679671
+            },
+            "deviation": {
+                "LAS": 9.3,
+                "RR": 6.1,
+                "FCFS": 34.5
+            }
+        },
+        {
+            "theoretical_cv": 3.0,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.4897096167365407,
+                "load": 0.20373768258268835
+            },
+            "deviation": {
+                "LAS": 17.5,
+                "RR": 10.0,
+                "FCFS": 31.1
+            }
+        },
+        {
+            "theoretical_cv": 3.0,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.4717573080856788,
+                "load": 0.5119430321499537
+            },
+            "deviation": {
+                "LAS": 46.8,
+                "RR": 24.7,
+                "FCFS": 10.1
+            }
+        },
+        {
+            "theoretical_cv": 3.0,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.42697302624526406,
+                "load": 0.6171303760243628
+            },
+            "deviation": {
+                "LAS": 62.5,
+                "RR": 33.1,
+                "FCFS": 8.5
+            }
+        },
+        {
+            "theoretical_cv": 3.0,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.3615967798762731,
+                "load": 0.7269782875113435
+            },
+            "deviation": {
+                "LAS": 92.9,
+                "RR": 45.1,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 3.0,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.2809298015113493,
+                "load": 0.7607428780727585
+            },
+            "deviation": {
+                "LAS": 40.2,
+                "RR": 19.2,
+                "FCFS": 1.0
+            }
+        },
+        {
+            "theoretical_cv": 3.0,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.2618992371726144,
+                "load": 0.8385968933651815
+            },
+            "deviation": {
+                "LAS": 16.9,
+                "RR": 10.5,
+                "FCFS": 1.3
+            }
+        },
+        {
+            "theoretical_cv": 4.0,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.6210896187552536,
+                "load": 0.06956001186234935
+            },
+            "deviation": {
+                "LAS": 3.1,
+                "RR": 4.9,
+                "FCFS": 87.4
+            }
+        },
+        {
+            "theoretical_cv": 4.0,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.6003895666510416,
+                "load": 0.15093856207777326
+            },
+            "deviation": {
+                "LAS": 2.3,
+                "RR": 2.8,
+                "FCFS": 54.4
+            }
+        },
+        {
+            "theoretical_cv": 4.0,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.5678597678851168,
+                "load": 0.21983867834115453
+            },
+            "deviation": {
+                "LAS": 7.1,
+                "RR": 12.5,
+                "FCFS": 56.9
+            }
+        },
+        {
+            "theoretical_cv": 4.0,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.5691351221963841,
+                "load": 0.45044505298547916
+            },
+            "deviation": {
+                "LAS": 4.3,
+                "RR": 10.0,
+                "FCFS": 78.8
+            }
+        },
+        {
+            "theoretical_cv": 4.0,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.5157131217473766,
+                "load": 0.5414079479273822
+            },
+            "deviation": {
+                "LAS": 22.2,
+                "RR": 25.9,
+                "FCFS": 13.9
+            }
+        },
+        {
+            "theoretical_cv": 4.0,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.4490619838633826,
+                "load": 0.718874911924553
+            },
+            "deviation": {
+                "LAS": 69.2,
+                "RR": 34.2,
+                "FCFS": 2.6
+            }
+        },
+        {
+            "theoretical_cv": 4.0,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.41776054141747065,
+                "load": 0.7233637116943323
+            },
+            "deviation": {
+                "LAS": 37.5,
+                "RR": 9.1,
+                "FCFS": 11.3
+            }
+        },
+        {
+            "theoretical_cv": 4.0,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.3538551836534997,
+                "load": 0.8125655029500991
+            },
+            "deviation": {
+                "LAS": 12.1,
+                "RR": 5.3,
+                "FCFS": 5.5
+            }
+        },
+        {
+            "theoretical_cv": 3.45,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.5380041590141056,
+                "load": 0.029336677712929016
+            },
+            "deviation": {
+                "LAS": 6.1,
+                "RR": 4.9,
+                "FCFS": 81.3
+            }
+        },
+        {
+            "theoretical_cv": 3.45,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.5742334359532194,
+                "load": 0.19748491625612133
+            },
+            "deviation": {
+                "LAS": 5.8,
+                "RR": 1.8,
+                "FCFS": 49.0
+            }
+        },
+        {
+            "theoretical_cv": 3.45,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.5262491284392904,
+                "load": 0.22173641454236934
+            },
+            "deviation": {
+                "LAS": 9.5,
+                "RR": 8.4,
+                "FCFS": 35.8
+            }
+        },
+        {
+            "theoretical_cv": 3.45,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.5111524552057969,
+                "load": 0.42957596053636127
+            },
+            "deviation": {
+                "LAS": 17.7,
+                "RR": 16.6,
+                "FCFS": 15.4
+            }
+        },
+        {
+            "theoretical_cv": 3.45,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.457018708881662,
+                "load": 0.6009373650024823
+            },
+            "deviation": {
+                "LAS": 37.8,
+                "RR": 29.0,
+                "FCFS": 6.5
+            }
+        },
+        {
+            "theoretical_cv": 3.45,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.4062031704255672,
+                "load": 0.7125601788371719
+            },
+            "deviation": {
+                "LAS": 72.6,
+                "RR": 30.2,
+                "FCFS": 0.0
+            }
+        },
+        {
+            "theoretical_cv": 3.45,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.34805107231229354,
+                "load": 0.7607170814601698
+            },
+            "deviation": {
+                "LAS": 28.8,
+                "RR": 12.0,
+                "FCFS": 0.5
+            }
+        },
+        {
+            "theoretical_cv": 3.45,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.30741718158002884,
+                "load": 0.8162594151341328
+            },
+            "deviation": {
+                "LAS": 14.7,
+                "RR": 8.6,
+                "FCFS": 4.2
+            }
+        },
+        {
+            "theoretical_cv": 4.7,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.6692104477736042,
+                "load": 1.0649489526515123e-05
+            },
+            "deviation": {
+                "LAS": 3.5,
+                "RR": 2.4,
+                "FCFS": 34.2
+            }
+        },
+        {
+            "theoretical_cv": 4.7,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.673343272072888,
+                "load": 0.1651783229005005
+            },
+            "deviation": {
+                "LAS": 1.8,
+                "RR": 9.1,
+                "FCFS": 122.4
+            }
+        },
+        {
+            "theoretical_cv": 4.7,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.6652188615110846,
+                "load": 0.2600666405663924
+            },
+            "deviation": {
+                "LAS": 5.1,
+                "RR": 10.5,
+                "FCFS": 93.0
+            }
+        },
+        {
+            "theoretical_cv": 4.7,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.6990918823558634,
+                "load": 0.5032913617171058
+            },
+            "deviation": {
+                "LAS": 13.3,
+                "RR": 15.5,
+                "FCFS": 32.5
+            }
+        },
+        {
+            "theoretical_cv": 4.7,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.5823745246557814,
+                "load": 0.5872025633803992
+            },
+            "deviation": {
+                "LAS": 7.7,
+                "RR": 15.2,
+                "FCFS": 60.8
+            }
+        },
+        {
+            "theoretical_cv": 4.7,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.49968242127754503,
+                "load": 0.6772168912032093
+            },
+            "deviation": {
+                "LAS": 29.9,
+                "RR": 7.9,
+                "FCFS": 13.6
+            }
+        },
+        {
+            "theoretical_cv": 4.7,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.4386218916074871,
+                "load": 0.7413595318947839
+            },
+            "deviation": {
+                "LAS": 23.8,
+                "RR": 5.6,
+                "FCFS": 2.8
+            }
+        },
+        {
+            "theoretical_cv": 4.7,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.3978486482936959,
+                "load": 0.7941020332250343
+            },
+            "deviation": {
+                "LAS": 8.3,
+                "RR": 1.2,
+                "FCFS": 7.6
+            }
+        },
+        {
+            "theoretical_cv": 5.44,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.7265029766380168,
+                "load": 0.020475076508125842
+            },
+            "deviation": {
+                "LAS": 5.4,
+                "RR": 6.6,
+                "FCFS": 77.5
+            }
+        },
+        {
+            "theoretical_cv": 5.44,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.7300797734047285,
+                "load": 0.17105886020009672
+            },
+            "deviation": {
+                "LAS": 2.0,
+                "RR": 5.7,
+                "FCFS": 71.4
+            }
+        },
+        {
+            "theoretical_cv": 5.44,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.7409508639943947,
+                "load": 0.21937327513582047
+            },
+            "deviation": {
+                "LAS": 2.4,
+                "RR": 5.9,
+                "FCFS": 82.9
+            }
+        },
+        {
+            "theoretical_cv": 5.44,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.7320418738364008,
+                "load": 0.5049822782581005
+            },
+            "deviation": {
+                "LAS": 0.0,
+                "RR": 19.7,
+                "FCFS": 74.0
+            }
+        },
+        {
+            "theoretical_cv": 5.44,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.6664732158280079,
+                "load": 0.5916558844881937
+            },
+            "deviation": {
+                "LAS": 16.8,
+                "RR": 26.4,
+                "FCFS": 26.9
+            }
+        },
+        {
+            "theoretical_cv": 5.44,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.5621075305100368,
+                "load": 0.6556403556295356
+            },
+            "deviation": {
+                "LAS": 34.4,
+                "RR": 27.1,
+                "FCFS": 41.7
+            }
+        },
+        {
+            "theoretical_cv": 5.44,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.5343080383932336,
+                "load": 0.7221178481547028
+            },
+            "deviation": {
+                "LAS": 38.9,
+                "RR": 14.0,
+                "FCFS": 15.6
+            }
+        },
+        {
+            "theoretical_cv": 5.44,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.4535835941848998,
+                "load": 0.7818151025167973
+            },
+            "deviation": {
+                "LAS": 8.9,
+                "RR": 2.0,
+                "FCFS": 7.6
+            }
+        },
+        {
+            "theoretical_cv": 6.5,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.8450690704885315,
+                "load": 0.05148072458123475
+            },
+            "deviation": {
+                "LAS": 0.3,
+                "RR": 10.1,
+                "FCFS": 139.5
+            }
+        },
+        {
+            "theoretical_cv": 6.5,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.8608043012780038,
+                "load": 0.11645750670219522
+            },
+            "deviation": {
+                "LAS": 3.2,
+                "RR": 2.5,
+                "FCFS": 64.8
+            }
+        },
+        {
+            "theoretical_cv": 6.5,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 0.7847804371427245,
+                "load": 0.2964001380188114
+            },
+            "deviation": {
+                "LAS": 1.2,
+                "RR": 10.5,
+                "FCFS": 129.0
+            }
+        },
+        {
+            "theoretical_cv": 6.5,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.8174617919028601,
+                "load": 0.4062272709445923
+            },
+            "deviation": {
+                "LAS": 3.6,
+                "RR": 14.5,
+                "FCFS": 52.3
+            }
+        },
+        {
+            "theoretical_cv": 6.5,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.7424914521105791,
+                "load": 0.5444084123851085
+            },
+            "deviation": {
+                "LAS": 3.4,
+                "RR": 7.7,
+                "FCFS": 42.9
+            }
+        },
+        {
+            "theoretical_cv": 6.5,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.6804336833389845,
+                "load": 0.6488548683316523
+            },
+            "deviation": {
+                "LAS": 20.0,
+                "RR": 13.6,
+                "FCFS": 16.8
+            }
+        },
+        {
+            "theoretical_cv": 6.5,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.608194051419203,
+                "load": 0.7006135034057451
+            },
+            "deviation": {
+                "LAS": 26.1,
+                "RR": 6.1,
+                "FCFS": 29.8
+            }
+        },
+        {
+            "theoretical_cv": 6.5,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.4873279904301889,
+                "load": 0.7183079062355155
+            },
+            "deviation": {
+                "LAS": 9.3,
+                "RR": 1.5,
+                "FCFS": 28.7
+            }
+        },
+        {
+            "theoretical_cv": 8.0,
+            "theoretical_load": 0.69,
+            "empirical_norm": {
+                "cv": 0.9800434910524081,
+                "load": 0.058342035104749106
+            },
+            "deviation": {
+                "LAS": 2.8,
+                "RR": 4.6,
+                "FCFS": 66.9
+            }
+        },
+        {
+            "theoretical_cv": 8.0,
+            "theoretical_load": 0.78,
+            "empirical_norm": {
+                "cv": 0.9571567180578343,
+                "load": 0.14240947668293005
+            },
+            "deviation": {
+                "LAS": 0.7,
+                "RR": 8.9,
+                "FCFS": 148.0
+            }
+        },
+        {
+            "theoretical_cv": 8.0,
+            "theoretical_load": 0.89,
+            "empirical_norm": {
+                "cv": 1.0000018928668823,
+                "load": 0.16127343507414035
+            },
+            "deviation": {
+                "LAS": 0.9,
+                "RR": 6.9,
+                "FCFS": 100.3
+            }
+        },
+        {
+            "theoretical_cv": 8.0,
+            "theoretical_load": 1.03,
+            "empirical_norm": {
+                "cv": 0.9226289603025967,
+                "load": 0.43094196373876587
+            },
+            "deviation": {
+                "LAS": 4.0,
+                "RR": 17.5,
+                "FCFS": 119.6
+            }
+        },
+        {
+            "theoretical_cv": 8.0,
+            "theoretical_load": 1.24,
+            "empirical_norm": {
+                "cv": 0.8692373242481132,
+                "load": 0.5024062849511454
+            },
+            "deviation": {
+                "LAS": 4.3,
+                "RR": 14.7,
+                "FCFS": 91.4
+            }
+        },
+        {
+            "theoretical_cv": 8.0,
+            "theoretical_load": 1.55,
+            "empirical_norm": {
+                "cv": 0.7867540237369383,
+                "load": 0.6390128208675353
+            },
+            "deviation": {
+                "LAS": 17.1,
+                "RR": 19.3,
+                "FCFS": 53.9
+            }
+        },
+        {
+            "theoretical_cv": 8.0,
+            "theoretical_load": 2.07,
+            "empirical_norm": {
+                "cv": 0.6828796833924484,
+                "load": 0.6813928202844903
+            },
+            "deviation": {
+                "LAS": 15.4,
+                "RR": 1.0,
+                "FCFS": 35.5
+            }
+        },
+        {
+            "theoretical_cv": 8.0,
+            "theoretical_load": 3.1,
+            "empirical_norm": {
+                "cv": 0.5959914638851835,
+                "load": 0.7278780913048777
+            },
+            "deviation": {
+                "LAS": 7.8,
+                "RR": 0.3,
+                "FCFS": 25.7
+            }
+        }
+    ]
+}

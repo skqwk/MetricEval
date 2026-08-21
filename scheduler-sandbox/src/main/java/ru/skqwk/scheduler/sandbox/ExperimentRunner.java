@@ -10,6 +10,7 @@ import ru.skqwk.scheduler.sandbox.actor.impl.FastRequestCounterActor;
 import ru.skqwk.scheduler.sandbox.actor.impl.TaskDequeActor;
 import ru.skqwk.scheduler.sandbox.actor.impl.UtilizationActor;
 import ru.skqwk.scheduler.sandbox.actor.impl.scheduler.FirstComeFirstServedActor;
+import ru.skqwk.scheduler.sandbox.actor.impl.scheduler.HybridSchedulerActor;
 import ru.skqwk.scheduler.sandbox.actor.impl.scheduler.LeastAttainedServiceSchedulerActor;
 import ru.skqwk.scheduler.sandbox.actor.impl.scheduler.RoundRobinSchedulerActor;
 import ru.skqwk.scheduler.sandbox.actor.message.Message;
@@ -23,6 +24,8 @@ import ru.skqwk.scheduler.sandbox.util.CsvTaskParser;
 import ru.skqwk.scheduler.sandbox.util.CustomDateConverter;
 import ru.skqwk.scheduler.sandbox.util.GanttDataConverter;
 import ru.skqwk.scheduler.sandbox.util.GanttRecord;
+import ru.skqwk.scheduler.sandbox.util.LookupTable;
+import ru.skqwk.scheduler.sandbox.util.LookupTableFactory;
 import ru.skqwk.scheduler.sandbox.util.RequestExecutor;
 import ru.skqwk.scheduler.sandbox.util.ValueRecord;
 
@@ -63,10 +66,17 @@ public class ExperimentRunner {
      */
     private static final int MS_IN_ONE_TICK = 800;
 
+    /**
+     * Число попыток выполнения запроса, после которого выполняется переключение алгоритма (для HAS)
+     */
+    private static final int ATTEMPTS = 500;
+
+    private static final LookupTable TABLE = LookupTableFactory.load();
+
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 
     public static void main(String[] args) {
-        String experimentsPath = "dataset-generator\\experiments\\4";
+        String experimentsPath = "dataset-generator\\experiments\\5";
         Path root = Paths.get(experimentsPath);
         if (!Files.exists(root) || !Files.isDirectory(root)) {
             System.err.println("Invalid experiments folder: " + experimentsPath);
@@ -117,9 +127,9 @@ public class ExperimentRunner {
 
         log.info("Processing {} with RPM={}", datasetPath, rpm);
 
-        Props props = new DefaultProps(rpm, INTERVAL_METRIC_RECORD, MS_IN_ONE_TICK);
+        Props props = new DefaultProps(rpm, INTERVAL_METRIC_RECORD, MS_IN_ONE_TICK, ATTEMPTS);
 
-        Algos[] algorithms = {Algos.LAS, Algos.RR, Algos.FCFS};
+        Algos[] algorithms = {Algos.LAS, Algos.RR, Algos.FCFS, Algos.HAS};
         for (Algos algo : algorithms) {
             try {
                 runSingleAlgorithm(datasetPath, algo, props);
@@ -168,7 +178,7 @@ public class ExperimentRunner {
 
         actorContext.addActor(actor);
         actorContext.addActor(new FastRequestCounterActor(props));
-        actorContext.addActor(createScheduler(algo, requestExecutor));
+        actorContext.addActor(createScheduler(algo, requestExecutor, props));
         actorContext.addActor(new UtilizationActor(loadRecords, records, props, requestExecutor));
 
         Queue<Message> messageQueue = new LinkedList<>();
@@ -187,10 +197,11 @@ public class ExperimentRunner {
         log.info("Finished {} on {}, result saved to {}", algo, datasetPath, outputCsv);
     }
 
-    private static TalkerActorWithQueue createScheduler(Algos mode, RequestExecutor requestExecutor) {
+    private static TalkerActorWithQueue createScheduler(Algos mode, RequestExecutor requestExecutor, Props props) {
         return switch (mode) {
             case LAS -> new LeastAttainedServiceSchedulerActor(requestExecutor);
             case FCFS -> new FirstComeFirstServedActor(requestExecutor);
+            case HAS -> new HybridSchedulerActor(requestExecutor, props, TABLE);
             case RR -> new RoundRobinSchedulerActor(requestExecutor);
         };
     }

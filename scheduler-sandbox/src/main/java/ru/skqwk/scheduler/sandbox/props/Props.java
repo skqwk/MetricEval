@@ -24,6 +24,11 @@ public interface Props {
      */
     int getMsInOneTick();
 
+    /**
+     * Число попыток, при превышении которого осуществляется переключение алгоритма (для HAS)
+     */
+    int getAttempts();
+
     default long getIntervalInMsBetweenRequests() {
         return (long) (MINUTE / getGlobalAllowedRPM());
     }

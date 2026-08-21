@@ -8,6 +8,7 @@ import lombok.RequiredArgsConstructor;
 public enum Algos {
     LAS("Least Attained Service"),
     FCFS("First Come First Served"),
+    HAS("Hybrid Adaptive Scheduler"),
     RR("Round Robin");
 
     private final String name;
